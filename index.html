@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Ucapan Spesial untuk Sayang 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Progress Bar -->
+        <div class="progress">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <!-- Particles -->
+        <div class="particles" id="particles"></div>
+        <div class="hearts" id="hearts"></div>
+
+        <!-- Slide 1 -->
+        <div class="slide active" data-slide="1">
+            <h1 class="title">💖 SURPRISE! 💖</h1>
+            <p class="message">Ada pesan spesial buat kamu dari seseorang yang spesial 😘</p>
+            <button class="btn-next" onclick="nextSlide()">Lanjut →</button>
+        </div>
+
+        <!-- Slide 2 - HALOO SAYANGG -->
+        <div class="slide" data-slide="2">
+            <h1 class="title">HALOO SAYANGG 😍</h1>
+            <p class="message">Klikk iniii yaaa ✨✨</p>
+            <button class="btn-next" onclick="nextSlide()">Klik yaa →</button>
+        </div>
+
+        <!-- Slide 3 - Minal Aidzin -->
+        <div class="slide" data-slide="3">
+            <div class="ketupat-container">
+                <div class="ketupat"></div>
+            </div>
+            <h1 class="title">🌙 Minal Aidzin Wal Faidzin 🌙</h1>
+            <p class="message">Semoga taqwa kita semakin bertambah<br>dan kebahagiaan selalu menyertai kita 💕</p>
+            <button class="btn-next" onclick="nextSlide()">Selanjutnya →</button>
+        </div>
+
+        <!-- Slide 4 - Selamat Ramadhan -->
+        <div class="slide" data-slide="4">
+            <h1 class="title">🎉 SELAMAT RAMADHAN & IDUL FITRI 🎉</h1>
+            <p class="message">Semoga puasa kita diterima<br>dan hari raya penuh berkah untuk kita berdua 🥰</p>
+            <button class="btn-next" onclick="nextSlide()">Lanjut →</button>
+        </div>
+
+        <!-- Slide 5 - Pesan Personal -->
+        <div class="slide" data-slide="5">
+            <h1 class="title">💌 UNTUK SAYANG 💌</h1>
+            <p class="message">Setiap hari bersamamu adalah hari raya bagiku ❤️<br>Kamu adalah ketupat terbaik di hidupku 😘</p>
+            <button class="btn-next" onclick="nextSlide()">Pesan Terakhir →</button>
+        </div>
+
+        <!-- Slide 6 - Final -->
+        <div class="slide" data-slide="6">
+            <h1 class="title">TAQABALALLAHU MINNA WA MINKUM 🤲</h1>
+            <p class="message">Happy Eid al-Fitr my love!<br>Semoga kita bisa merayakan bersama selamanya 💍✨</p>
+            <button class="btn-next" onclick="restart()">Ulangi dari awal 🔄</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
